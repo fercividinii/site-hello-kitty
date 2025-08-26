@@ -1,4 +1,4 @@
-    
+
 img.personagens{
     margin-left: 480px;
     border: 8px solid #d6336c;   
@@ -24,10 +24,7 @@ h2 {
     text-align: center;
     font-family: cursive;
 }
-ul {
-    margin-left: 630px;
-    list-style-type: none;
-}
+
 img.kuromi{
     margin-left: 250px;
     width: 200px;
@@ -39,14 +36,6 @@ img.hellokitty{
 img.mymelody{
     margin-left: 250px;
     width: 200px;
-}
-div.menu
-{
-    display: flex;
-    justify-content: space-between; 
-    padding: 20px;
-    margin: 200px;
-    width: 1500px; 
 }
 
 footer {
@@ -60,4 +49,35 @@ footer {
   bottom: 0;
   width: 100%;
   font-size: 14px;
+}
+
+.boas-vindas {
+    text-align: center;
+    font-family: 'Comic Sans MS', cursive;
+    font-size: 1.3em;
+    color: #ff69b4;
+    margin: 10px 20px;
+    background-color: #fff0f5;
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px #fbb;
+}
+
+.topo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #ffc0cb;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    color: white;
+    box-shadow: 0 0 10px #f8a;
+    transition: background 0.3s ease;
+}
+
+.topo:hover {
+    background-color: #ff69b4;
 }
